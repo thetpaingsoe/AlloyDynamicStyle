@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="mainWindow">
+		<View layout="vertical">
+			<View id="topView">
+
+				<Label id="title">Title</Label>
+				
+			</View>
+		</View>
+	</Window>
+</Alloy>
