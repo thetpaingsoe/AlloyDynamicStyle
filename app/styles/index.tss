@@ -14,11 +14,46 @@
 		fontWeight: 'bold'
 		
 	},
-	backgroundImage: '/title_green.png'
+	
 }
 
 '#topView': {
 	top : 0,
 	width : Ti.UI.FILL,
 	height : Ti.UI.SIZE
+}
+
+
+'#middleView' : {
+	top : 0,
+	width : Ti.UI.FILL,
+	height : Ti.UI.FILL
+}
+
+'#btnChange': {
+	width : Ti.UI.SIZE
+}
+
+/*
+ * Blue Theme 
+ *
+ */
+'.blueTitleBackground' : {
+	backgroundImage: '/blue/title_blue.png'
+}
+
+/*
+ * Green Theme 
+ *
+ */
+'.greenTitleBackground' : {
+	backgroundImage: '/green/title_green.png'
+}
+
+/*
+ * Gray Theme 
+ *
+ */
+'.grayTitleBackground' : {
+	backgroundImage: '/gray/title_gray.png'
 }

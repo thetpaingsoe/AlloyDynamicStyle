@@ -5,7 +5,6 @@ function Controller() {
             $.btnChange.theme = 2;
             $.btnChange.title = "Change Blue";
             $.addClass($.title, "greenTitleBackground");
-            $.removeClass($.title, "grayTitleBackground");
         } else if (2 === theme) {
             $.btnChange.theme = 3;
             $.btnChange.title = "Change Gray";
@@ -15,7 +14,6 @@ function Controller() {
             $.btnChange.theme = 1;
             $.btnChange.title = "Change Green";
             $.addClass($.title, "grayTitleBackground");
-            $.removeClass($.title, "blueTitleBackground");
         }
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));

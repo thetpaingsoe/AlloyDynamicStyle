@@ -3,8 +3,12 @@
 		<View layout="vertical">
 			<View id="topView">
 
-				<Label id="title">Title</Label>
+				<Label id="title" class="greenTitleBackground">Title</Label>
 				
+			</View>
+			
+			<View id="middleView">
+				<Button id="btnChange" onClick="changeTheme" theme="1"> Change Blue </Button>
 			</View>
 		</View>
 	</Window>
